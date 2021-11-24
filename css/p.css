@@ -1,0 +1,82 @@
+.wrap {
+	 font-family: 'Noto Sans KR', sans-serif; 
+	 font-size:.9rem;
+	 letter-spacing: 0px;
+	 font-weight:100;
+	 margin:20px auto;
+	 width:900px;
+	 text-align:center;}
+
+.wrap ul li {
+	float:left;
+	position:relative;
+	}
+
+.menu {position:fixed;
+		top:80px;
+		left:120px;}
+
+.menu ul li {
+	width: 100%;
+    border: 1px solid #d7d7d7;
+    padding: 10px;
+	width:250px;
+	float:none;
+	}
+
+.box1 {
+	float:left; 
+	width:33.3%; 
+	min-width:300px; 
+	margin-left: -2px;
+	position:relative;}
+
+.three {margin:2px auto;}
+
+/*해본포켓몬 체크 스크린샷 없는경우*/
+
+.box2:before { 
+	
+	content: " ";
+    height: 51px;
+    width: 296px;
+    position: absolute;
+	top:0;
+	left:0;
+    background: #df7d04;
+    opacity: 0.18;} 
+
+
+/*해본포켓몬 체크 스크린샷 있는경우*/
+.box3:before { 
+	
+	content: " ";
+    height: 51px;
+    width: 296px;
+    position: absolute;
+	top:0;
+	left:0;
+    background: #df0404;
+    opacity: 0.18;} 
+
+
+
+.set1 li{
+	border:1px solid #e9e9e9; 
+	height:20px;
+	line-height:30px;
+	padding: 9px 20px 20px 20px;
+	display:table-cell;
+    vertical-align:middle;
+	}
+
+.set1 li a:hover {color:blue; font-weight:500;}
+.set1 li img {max-width:30px; max-height:30px;}
+
+.set1 li + li  {min-width:30px;}
+.set1 li + li + li {width:119px;}
+
+
+.set1 li:first-child{
+	border-right:none; } 
+
